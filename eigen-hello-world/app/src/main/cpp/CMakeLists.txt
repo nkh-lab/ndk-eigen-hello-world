@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 add_library( MainActivityJNI SHARED MainActivityJNI.cpp )
-target_link_libraries( MainActivityJNI nkhlablogger )
+target_link_libraries( MainActivityJNI nkhlablogger Eigen3::Eigen)

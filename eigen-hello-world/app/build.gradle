@@ -15,6 +15,7 @@ android {
         externalNativeBuild {
             cmake {
                 cppFlags ""
+                arguments "-DLOGGER_BUILD_HEADER_LIB=ON", "-DBUILD_TESTING=OFF"
             }
         }
     }
